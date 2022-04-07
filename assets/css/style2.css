@@ -1,0 +1,146 @@
+/* ------------------------------------------- Header ---------------------------------------------- */
+
+body{
+    
+}
+
+#logo{
+    width: 5em;
+    height: 5em;
+}
+
+.headerImg{
+    height: 25em;
+    width: 100%;
+    background-image: url(/wp-content/themes/mytheme/screenshot.png);
+    opacity: 70%;
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* a{
+    color: white;
+    text-decoration: none;
+} */
+
+a, a:link, a:visited{
+    color: white;
+    text-decoration: none;
+}
+
+.visitSite, .visitSite:link, .visitSite:visited{
+    color: black;
+    text-decoration: none;
+}
+
+.headerTitle{
+    margin-top: 10%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.headerSlog{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+
+/*--------------------------------------------- MainHome  ---------------------------------------------------- */
+
+.homeDescription, h2, h4{
+    color: grey;
+}
+
+.homeDescription{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.mainHomeSpace{
+    margin-top: 5em;
+    margin-bottom: 5em;
+} 
+
+.mainHomeCard{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: flex-end;
+}
+
+.imgHomeHeight{
+    object-fit: cover;
+    height: 22em;
+    width: 100%;
+}
+
+button{
+    background-color: rgb(32,225,173);
+    color: white;
+    font-weight: bolder;
+    border-radius: 10%;
+    padding: 0.5em;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+/* ---------------------------------------------- Footer ------------------------------------------------ */
+
+.footerImg{
+    height: 20em;
+    width: 100%;
+    background-image: url(/wp-content/themes/mytheme/assets/img/inspiration-voyage.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.discover{
+    margin: 3em;
+}
+
+.popArt{
+    margin-top: 0.5em;
+}
+
+.space{
+    margin-bottom: 3em;
+}
+
+.spaceS{
+    margin-bottom: 3em;
+    color: rgb(235, 232, 232);
+    background-color: rgb(20,20,24);
+}
+
+.articleCard{
+    padding-left: 6em;
+    padding-right: 6em;
+}
+
+.cham{
+    height:10em;
+    object-fit: cover;
+    width: 100%;
+}
+
+.form{
+    margin-top: 2em;
+}
+
+.formS{
+    margin-top: 5em;
+}
+
+.formT{
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.colorTitle{
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
